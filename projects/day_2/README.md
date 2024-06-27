@@ -1,0 +1,1 @@
+A simple tip calculator, gets total bill,tip percentage and number of people to calculate each person's pay
