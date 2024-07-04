@@ -1,0 +1,1 @@
+Blind auction program, bidding without seeing others bids
