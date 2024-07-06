@@ -1,0 +1,1 @@
+Play the classic card game of Blackjack against the computer! Try to get a hand value of 21 or as close as possible without exceeding it.  Beat the dealer by having a higher score or by letting them bust!
