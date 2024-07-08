@@ -1,0 +1,1 @@
+This number guessing game challenges players to guess a secret number between 1 and 100. The difficulty level (easy or hard) determines the number of attempts allowed. After each guess, the computer provides feedback indicating whether the guess was correct, too high, or too low. The goal is to guess the correct number within the given attempts.
