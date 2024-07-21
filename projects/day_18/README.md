@@ -18,7 +18,6 @@ This Python project generates a dot painting reminiscent of Damien Hirst's style
 1. **Clone the repository**:
     ```sh
     git clone git@github.com:vedatenisgul/python_projects.git
-    cd dot-painting-generator
     ```
 
 2. **Install the required packages**:
