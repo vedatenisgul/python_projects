@@ -5,6 +5,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore JetBrains IDE settings directory (.idea) to avoid sharing personal IDE configuration.
+.idea/
+
 # C extensions
 *.so
 
