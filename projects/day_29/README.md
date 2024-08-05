@@ -6,7 +6,8 @@ A simple and efficient Password Manager application built with Python's `tkinter
 
 - **Password Generation**: Generate secure passwords with a single click.
 - **Clipboard Copy**: Automatically copy generated passwords to the clipboard.
-- **Data Storage**: Save website credentials (website, email/username, and password) to a text file.
+- **Data Storage**: Save website credentials (website, email/username, and password) to a JSON file.
+- **Credential Search**: Easily search for saved credentials by website name.
 - **User-Friendly Interface**: Simple and intuitive graphical user interface (GUI).
 
 ## Installation
@@ -14,5 +15,4 @@ A simple and efficient Password Manager application built with Python's `tkinter
 ### Prerequisites
 
 - Python 3.x
-- `tkinter` library (usually comes pre-installed with Python)
 - `pyperclip` module
