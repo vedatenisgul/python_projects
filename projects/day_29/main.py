@@ -46,6 +46,7 @@ def save_to_the_file():
     else:
         try:
             data_file = open("data.json")
+            data_file.close()
         except FileNotFoundError:
             with open("data.json", "w") as file:
                 json.dump(new_data, file, indent=4)
