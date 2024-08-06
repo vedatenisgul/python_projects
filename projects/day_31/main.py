@@ -1,7 +1,12 @@
 from tkinter import *
 import pandas
 import random
+
+
 BACKGROUND_COLOR = "#B1DDC6"
+FONT_NAME = "Arial"
+LANGUAGE_FONT = (FONT_NAME, 40, "italic")
+WORD_FONT = (FONT_NAME, 60, "bold")
 
 
 def learned():
@@ -62,16 +67,18 @@ card_back_image = PhotoImage(file="./images/card_back.png")
 canvas_image = canvas.create_image(400, 263, image=card_front_image)
 canvas.grid(row=0, column=0, columnspan=2)
 
-language_name_text = canvas.create_text(400, 150, text="title", font=("Ariel", 40, "italic"))
-word_name_text = canvas.create_text(400, 263, text="word", font=("Ariel", 60, "bold"))
+language_name_text = canvas.create_text(400, 150, text="title", font=LANGUAGE_FONT)
+word_name_text = canvas.create_text(400, 263, text="word", font=WORD_FONT)
 
 
 right_image = PhotoImage(file="./images/right.png")
-button1 = Button(image=right_image, highlightthickness=0, command=learned)
+button1 = Button(image=right_image, highlightthickness=0, borderwidth=0, highlightbackground=BACKGROUND_COLOR
+                 , command=learned)
 button1.grid(row=1, column=1)
 
 wrong_image = PhotoImage(file="./images/wrong.png")
-button2 = Button(image=wrong_image, highlightthickness=0, command=next_word)
+button2 = Button(image=wrong_image, highlightthickness=0, borderwidth=0, highlightbackground=BACKGROUND_COLOR
+                 , command=next_word)
 button2.grid(row=1, column=0)
 
 next_word()
